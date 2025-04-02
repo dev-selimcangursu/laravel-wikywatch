@@ -1,6 +1,6 @@
 @extends('client.partials.master')
 @section('main')
-<section id="login__wrapper">
+<section id="login__wrapper" style="height: 70vh">
     <h3 class="login__global__text">Ödeme seçeneklerini hızlandırmak için oturum açın.</h3>
     <div class="login__area">
          <p class="login__text">Wiky Watch'da oturum açın</p>
