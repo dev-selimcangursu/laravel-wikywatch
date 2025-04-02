@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 /**! HEADER ALANI CSS :: BAŞLANGIÇ **/
 .header{
@@ -64,34 +65,159 @@
     list-style: none;
     gap:10px
 }
+.header .header__bottom .header__bottom__left ul li{
+   position: relative;
+}
 .header .header__bottom .header__bottom__left ul li .header__bottom__left__menu__link{
     color: #0000008c;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
 }
-.header__bottom__right ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 10px;
+.header .header__bottom .header__bottom__left ul li .header__bottom__left__menu__link:hover{
+  color: black;
+  font-size: 13px;
 }
-.header__bottom__right ul li a{
-    color: #0000008c;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
+.header .header__bottom .header__bottom__left ul li .header__bottom__left__menu__link__dropdown{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffffff; 
+  width: 250px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; 
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+  transform: translateY(10px);
+}
+.header .header__bottom .header__bottom__left ul li:hover .header__bottom__left__menu__link__dropdown{
+  visibility:visible !important;
+  opacity: 1 !important;
+}
+.header .header__bottom .header__bottom__left ul li .header__bottom__left__menu__link__dropdown ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.header .header__bottom .header__bottom__left ul li .header__bottom__left__menu__link__dropdown ul li .header__bottom__left__menu__link__dropdown__link{
+  font-size: 12px;
+  font-weight: 600;
+  color: #0000008c;
+  text-decoration: none;
+}
+.header .header__bottom .header__bottom__left ul li .header__bottom__left__menu__link__dropdown ul li .header__bottom__left__menu__link__dropdown__link:hover{
+  color:#007FFF
+}
+.header__bottom__right ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+}
+.header__bottom__right ul li {
+  position: relative;
+}
+.header__bottom__right .header__bottom__right__menu__link__dropdown {
+  position: absolute;
+  top: 10px; 
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffffff;
+  width: 250px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+  transform: translateY(10px);
+}
+.header__bottom__right ul li:hover .header__bottom__right__menu__link__dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+.header__bottom__right ul li .header__bottom__right__menu__link {
+  color: #0000008c;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+.header__bottom__right ul li .header__bottom__right__menu__link:hover {
+  color: black;
+}
+.header__bottom__right .header__bottom__right__menu__link__dropdown ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__bottom__right .header__bottom__right__menu__link__dropdown ul li a {
+  color: #0000008c;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+.header__bottom__right .header__bottom__right__menu__link__dropdown ul li a:hover {
+  color: #007bff; 
+}
+.mobile__sidebar__open__button{
+  color: #0000008c;
+  font-size: 24px;
+  display: none;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header .header__top{
+    display: none;
+  }
+  .header .header__bottom__right{
+    display: none;
+  }
+  .mobile__sidebar__open__button{
+    display: block;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header .header__top{
+    display: none;
+  }
+  .header .header__bottom__right{
+    display: none;
+  }
+  .mobile__sidebar__open__button{
+    display: block;
+  }
+  
 }
 /**! HEADER ALANI CSS :: SON **/
 
-/** LOGİN SAYFASI CSS :: BAŞLANGIÇ **/
 
-/** LOGİN SAYFASI CSS :: SON **/
-
+/** MOBİLE SİDEBAR ALANI CSS :: BAŞLANGIÇ **/
 
 
+/** MOBİLE SİDEBAR ALANI CSS :: SON **/
 
-/**! FOOTER ALANI CSS::BAŞLANGIÇ **/
+
+/**! LOGİN SAYFASI CSS :: BAŞLANGIÇ **/
+
+/**! LOGİN SAYFASI CSS :: SON **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** FOOTER ALANI CSS::BAŞLANGIÇ **/
 footer {
   background-color: #000;
   color: #fff;
@@ -136,4 +262,4 @@ footer {
   font-size: 14px;
   text-align: center;
 }
-/**! FOOTER ALANI CSS::SON **/
+/** FOOTER ALANI CSS::SON **/

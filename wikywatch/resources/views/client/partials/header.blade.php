@@ -38,9 +38,53 @@
                     </li>
                     <li>
                         <a class="header__bottom__left__menu__link" href="">Akıllı Saatler</a>
+                        <div class="header__bottom__left__menu__link__dropdown">
+                            <ul>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link" href="">Wiky Watch 5 Plus</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 5E</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 5S</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 4S</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 4 Plus</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 4G</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
                         <a class="header__bottom__left__menu__link" href="">Aksesuar Mağazası</a>
+                        <div class="header__bottom__left__menu__link__dropdown">
+                            <ul>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link" href="">Wiky Watch 5 Plus Aksesuarları</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 5E Aksesuarları</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 5S Aksesuarları</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 4S Aksesuarları</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 4 Plus Aksesuarları</a>
+                                </li>
+                                <li>
+                                    <a class="header__bottom__left__menu__link__dropdown__link"  href="">Wiky Watch 4G Aksesuarları</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -48,16 +92,21 @@
         <div class="header__bottom__right">
             <ul>
                 <li>
-                    <a class="header__bottom__right__menu__link" href="">Teknik Servis</a>
+                    <a class="header__bottom__right__menu__link" href="#">Teknik Servis</a>
+                    <div class="header__bottom__right__menu__link__dropdown">
+                        <ul>
+                            <li><a href="#">Teknik Servis Kayıt Formu</a></li>
+                            <li><a href="#">Teknik Servis Durum Sorgulama</a></li>
+                            <li><a href="#">Wiky Watch Sıfırlama Talep Formu</a></li>
+                            <li><a href="#">Ödeme Yapılacak Cihaz Sorgulama</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li>
-                    <a class="header__bottom__right__menu__link" href="">Bilgi Bankası</a>
-                </li>
-                <li>
-                    <a class="header__bottom__right__menu__link" href="">Medyada Biz</a>
-                </li>
+                <li><a class="header__bottom__right__menu__link" href="#">Bilgi Bankası</a></li>
+                <li><a class="header__bottom__right__menu__link" href="#">Medyada Biz</a></li>
             </ul>
         </div>
+        <a class="mobile__sidebar__open__button" ><i class="bi bi-list"></i></a>
      </div>
      {{-- Header Bottom :: End --}}
 </header>
