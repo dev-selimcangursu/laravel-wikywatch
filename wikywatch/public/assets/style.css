@@ -1302,17 +1302,6 @@ input[type="password"]:focus,
   .home__section__image__area {
     width: 100% !important;
   }
-
-  #webform__wrapper .webform__container .webform__images .webform__image__second {
-    flex-direction: column !important;
-  }
-
-  #webform__wrapper .webform__container .webform__images .webform__image__second img {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-
   #order__products__wrapper {
     width: 100%;
     box-sizing: border-box;
@@ -1361,12 +1350,58 @@ input[type="password"]:focus,
     width: 50%;
     text-align: center;
   }
-
   #order__products__wrapper .order__products .order__products__cards .order__product__card .order__product__card__image__area img {
     width: 100%;
   }
+  #webform__wrapper {
+    width: 100%;
+    background-color: white;
+  }
+  #webform__wrapper .webform__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+  }
+  #webform__wrapper .webform__container .webform__images {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #webform__wrapper .webform__container .webform__images .webform__image__first img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #webform__wrapper .webform__container .webform__images .webform__image__second {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  #webform__wrapper .webform__container .webform__images .webform__image__second img {
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #webform__wrapper .webform__container .webform__images .webform__image__second img:hover {
+    transform: scale(1.05);
+  }
+  
+  #webform__wrapper .webform__container .webform__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
 }
-
 /** HOME SAYFASI CSS :: SON **/
 
 
