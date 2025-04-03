@@ -1411,6 +1411,7 @@ input[type="password"]:focus,
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
+  position: relative;
 }
 
 #product__detail .product {
@@ -1537,8 +1538,6 @@ input[type="password"]:focus,
   text-decoration: underline;
 }
 
-
-
 .product__feature__wrapper {
   width: 100%;
   box-sizing: border-box;
@@ -1587,6 +1586,114 @@ input[type="password"]:focus,
   margin-top: 15px;
 }
 
+
+.basket_wrapper {
+  background: #f8f9fa;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 5px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 2px solid #ddd;
+}
+
+.basket_wrapper .basket__cargo__status__area,
+.basket__help__area,
+.basket__add__and__amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.basket_wrapper .basket__cargo__status__area i {
+  font-size: 30px;
+  color: #007bff;
+}
+
+.basket_wrapper .basket__cargo__status__area h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.basket_wrapper .basket__cargo__status__area small {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.basket_wrapper .basket__help__area a {
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.basket_wrapper .basket__help__area a:hover {
+  text-decoration: underline;
+}
+
+.basket_wrapper .basket__help__area .basket__social__media__area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket_wrapper .basket__help__area .basket__social__media__area small {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.basket_wrapper .basket__help__area .basket__social__media__area .basket__social__media__list {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.basket_wrapper .basket__help__area .basket__social__media__area .basket__social__media__list a {
+  font-size: 14px;
+  color: #6c757d;
+  transition: color 0.3s;
+}
+
+.basket_wrapper .basket__help__area .basket__social__media__area .basket__social__media__list a:hover {
+  color: #007bff;
+}
+
+.basket_wrapper .basket__add__and__amount h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.basket_wrapper .basket__add__and__amount small {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.basket_wrapper .basket__add__and__amount .addBasketButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.basket_wrapper .basket__add__and__amount .addBasketButton:hover {
+  background-color: #0056b3;
+}
+
+
+
 @media (max-width: 768px) {
   #product__detail .product {
     flex-direction: column;
@@ -1633,6 +1740,34 @@ input[type="password"]:focus,
   .product__feature__wrapper .product__feature .product__feature__main .product__feature__main__description {
     font-size: 14px;
   }
+
+  .basket_wrapper {
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  .basket_wrapper .basket__help__area {
+    display: none;
+  }
+
+  .basket_wrapper .basket__cargo__status__area,
+  .basket_wrapper .basket__add__and__amount {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .basket_wrapper .basket__add__and__amount h5 {
+    font-size: 18px;
+  }
+
+  .basket_wrapper .basket__add__and__amount small {
+    font-size: 13px;
+  }
+
+  .basket_wrapper .basket__add__and__amount .addBasketButton {
+    width: 100%;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1655,7 +1790,36 @@ input[type="password"]:focus,
   #product__detail .product .product__info__right__main .featured__summary__link a {
     font-size: 11px;
   }
+
+  .basket_wrapper {
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  .basket_wrapper .basket__help__area {
+    display: none;
+  }
+
+  .basket_wrapper .basket__cargo__status__area,
+  .basket_wrapper .basket__add__and__amount {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .basket_wrapper .basket__add__and__amount h5 {
+    font-size: 18px;
+  }
+
+  .basket_wrapper .basket__add__and__amount small {
+    font-size: 13px;
+  }
+
+  .basket_wrapper .basket__add__and__amount .addBasketButton {
+    width: 100%;
+    font-size: 12px;
+  }
 }
+
 /**! PRODUCT DETAİL CSS :: SON **/
 
 /** FOOTER ALANI CSS::BAŞLANGIÇ **/

@@ -126,7 +126,33 @@
                 </p>
             </div>
         </div>
+    </div>   
+    <div class="basket_wrapper">
+        <div class="basket__cargo__status__area">
+            <i class="bi bi-truck"></i>
+            <h6>Gönderim</h6>
+            <small>1-3 İş Günü</small>
+            <small>Ücretsiz Gönderim</small>
+        </div>
+        <div class="basket__help__area">
+            <a href="">Satın Alım Konusunda Sorularınız mı Var ?</a>
+            <div class="basket__social__media__area">
+                <small>Bizi Sosyal Medyadan Takip Edebilirsiniz.</small>
+                <div class="basket__social__media__list">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-youtube"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="basket__add__and__amount">
+             <h5>6539 TL</h5>
+             <small>2,300,00 TL x 3 Aya Kadar Taksit</small>
+             <button class="addBasketButton">Sepete Ekle</button>
+        </div>
     </div>
     
-</section>
+   </section>
 @endsection
