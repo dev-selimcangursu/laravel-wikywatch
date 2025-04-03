@@ -228,26 +228,28 @@
      {{-- Header Bottom :: End --}}
 </header>
 <script>
-const sidebar = document.querySelector('.mobile__sidebar__wrapper');
-const openButton = document.querySelector('.mobile__sidebar__open__button');
-const closeButton = document.querySelector('.mobile__sidebar__close__button');
-
-// Sidebar açma
-openButton.addEventListener('click', () => {
-  sidebar.classList.add('active');
-});
-// Sidebar kapama
-closeButton.addEventListener('click', () => {
-  sidebar.classList.remove('active');
-});
-// Sidebar İçerisindeli Menü Dropdownları Açma Kapama
-const dropdownMenus = document.querySelectorAll('.mobile__sidebar__menu');
-dropdownMenus.forEach(dropdownMenu => {
-  dropdownMenu.addEventListener('click', () => {
-    const dropdown = dropdownMenu.nextElementSibling;
-    if (dropdown) {
-      dropdown.classList.toggle('active');
-    }
-  });
-});
-</script>
+    $(document).ready(function() {
+        const sidebar = $('.mobile__sidebar__wrapper');
+        const openButton = $('.mobile__sidebar__open__button');
+        const closeButton = $('.mobile__sidebar__close__button');
+    
+        // Sidebar açma
+        openButton.on('click', function() {
+            sidebar.addClass('active');
+        });
+    
+        // Sidebar kapama
+        closeButton.on('click', function() {
+            sidebar.removeClass('active');
+        });
+    
+        // Sidebar içindeki Menü Dropdownları Açma/Kapama
+        $('.mobile__sidebar__menu').on('click', function() {
+            const dropdown = $(this).next();
+            if (dropdown.length) {
+                dropdown.toggleClass('active');
+            }
+        });
+    });
+    </script>
+    

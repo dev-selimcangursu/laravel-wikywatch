@@ -15,7 +15,7 @@
                 </label>
                 <a href="">Parolayı mı Unuttunuz?</a>
             </div>
-            <small class="dont__have__account">Wiky Watch Hesabınız yok mu? <a class="dont__have__account__link" href="">Şimdi Oluşturun</a></small>
+            <small class="dont__have__account">Wiky Watch Hesabınız yok mu? <a class="dont__have__account__link" href="{{route('register')}}">Şimdi Oluşturun</a></small>
         </form>
     </div>
     <div class="login__wrapper__bottom">
