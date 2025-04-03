@@ -143,7 +143,7 @@
                 <span><i class="bi bi-truck"></i> Ücretsiz Kargo</span>
                 <span><i class="bi bi-box-seam"></i> Hızlı Teslimat</span>
             </div>
-            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati</p>
+            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati Mavi</p>
          
             <div class="product__card__body__star__area">
                 <i class="bi bi-star-fill"></i>
@@ -161,7 +161,7 @@
     </div>
     <div class="product__card">
         <div class="product__card__header">
-            <img src="{{asset('assets/images/wiky-5plus-mavi.png')}}" alt="wiky-watch">
+            <img src="{{asset('assets/images/wiky-5plus-pembe.png')}}" alt="wiky-watch">
         </div>
         <div class="product__card__body">       
             <small class="product__card__body__brand">WIKY WATCH</small>
@@ -169,7 +169,7 @@
                 <span><i class="bi bi-truck"></i> Ücretsiz Kargo</span>
                 <span><i class="bi bi-box-seam"></i> Hızlı Teslimat</span>
             </div>
-            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati</p>
+            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati Pembe</p>
          
             <div class="product__card__body__star__area">
                 <i class="bi bi-star-fill"></i>
@@ -187,7 +187,7 @@
     </div>
     <div class="product__card">
         <div class="product__card__header">
-            <img src="{{asset('assets/images/wiky-5plus-mavi.png')}}" alt="wiky-watch">
+            <img src="{{asset('assets/images/wiky-5plus-siyah.png')}}" alt="wiky-watch">
         </div>
         <div class="product__card__body">       
             <small class="product__card__body__brand">WIKY WATCH</small>
@@ -195,7 +195,7 @@
                 <span><i class="bi bi-truck"></i> Ücretsiz Kargo</span>
                 <span><i class="bi bi-box-seam"></i> Hızlı Teslimat</span>
             </div>
-            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati</p>
+            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati Siyah</p>
          
             <div class="product__card__body__star__area">
                 <i class="bi bi-star-fill"></i>
@@ -209,7 +209,34 @@
                 <span>6090₺</span>
             </div>
             <button>İncele</button>
-        </div>
+        </div> 
     </div>
+    <div class="product__card">
+        <div class="product__card__header">
+            <img src="{{asset('assets/images/wiky-5plus-mor.png')}}" alt="wiky-watch">
+        </div>
+        <div class="product__card__body">       
+            <small class="product__card__body__brand">WIKY WATCH</small>
+            <div class="cargo__featured__area">
+                <span><i class="bi bi-truck"></i> Ücretsiz Kargo</span>
+                <span><i class="bi bi-box-seam"></i> Hızlı Teslimat</span>
+            </div>
+            <p class="product__card__body__title">Wiky Watch 5 Plus Akıllı Çocuk Saati Mor</p>
+         
+            <div class="product__card__body__star__area">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="price__area">
+                <span>6390₺</span>
+                <span>6090₺</span>
+            </div>
+            <button>İncele</button>
+        </div> 
+    </div>
+
 </section>
 @endsection
