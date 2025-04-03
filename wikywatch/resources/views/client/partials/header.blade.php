@@ -205,7 +205,7 @@
                 <li><a class="header__bottom__right__menu__link" href="#">Medyada Biz</a></li>
                 @if(Auth::user())
                 <li>
-                    <a class="header__bottom__right__menu__link" href=""><i class="bi bi-person-circle"></i> Hesabım</a> 
+                    <a class="header__bottom__right__menu__link" href="{{route('account')}}"><i class="bi bi-person-circle"></i> Hesabım</a> 
                 </li>
                 <li>
                     <form method="POST" action="{{ route('logout') }}">
@@ -219,7 +219,7 @@
                 </li>
                 @endif
                 <li>
-                    <a href=""><a style="color: #333" href=""><i class="bi bi-bag-check"></i></a></a>
+                    <a style="font-size: 17px" class="header__bottom__right__menu__link" href=""><i class="bi bi-bag-check"></i></a>
                 </li>
             </ul>
         </div>
