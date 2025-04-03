@@ -67,7 +67,66 @@
                     <li><a href="#">IP67 Su ve Toz Dayanıklılığı</a></li>
                 </ul>
             </div>
+            <a href="">Ürün Özellikleri Tablosunu İncele !</a>
         </div>
     </div>
+    <div class="product__feature__wrapper">
+        <div class="product__feature">
+            <div class="product__feature__image__area">
+                <img src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?ga=GA1.1.750660428.1742764870&semt=ais_hybrid&w=740" alt="Product Image">
+            </div>
+            <div class="product__feature__main">
+                <h3 class="product__feature__main__title">Nabız, Oksijen ve Ateş Ölçer</h3>
+                <p class="product__feature__main__description">
+                    Gelişmiş sağlık takibi özellikleri arasında nabız ölçer, oksijen ölçer ve ateş ölçer bulunur. Bu özellikler, çocuklarınızın sağlık durumlarını anlık olarak izlemeyi sağlar ve olası sorunlara karşı hızlı bir şekilde müdahale edilmesine yardımcı olur.
+                </p>
+            </div>
+        </div>
+        <div class="product__feature">
+            <div class="product__feature__main">
+                <h3 class="product__feature__main__title">Amoled Ekran ve Kompakt Tasarım</h3>
+                <p class="product__feature__main__description">
+                    Wiky Watch 5 Plus, 1.78 inç büyüklüğündeki AMOLED ekranıyla canlı renkler ve net görüntüler sunar. 368 x 448 çözünürlüğü ile ekran kalitesi oldukça yüksektir. Ayrıca, 52 gram ağırlığı ile hafif ve rahat bir kullanım sağlar.
+                </p>
+            </div>
+            <div class="product__feature__image__area">
+                <img src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?ga=GA1.1.750660428.1742764870&semt=ais_hybrid&w=740" alt="Product Image">
+            </div>
+        </div>
+        <div class="product__feature">
+            <div class="product__feature__image__area">
+                <img src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?ga=GA1.1.750660428.1742764870&semt=ais_hybrid&w=740" alt="Product Image">
+            </div>
+            <div class="product__feature__main">
+                <h3 class="product__feature__main__title">Elektronik Çit ve Sınıf Modu</h3>
+                <p class="product__feature__main__description">
+                    Wiky Watch 5 Plus, elektronik çit özelliği ile belirli bölgelerin dışına çıkıldığında uyarı gönderir. Ayrıca, sınıf modu sayesinde çocuklar okuldayken dikkatlerini dağıtacak bildirimleri almazlar; bu da eğitim sürecini kesintisiz kılar.
+                </p>
+            </div>
+        </div>
+        <div class="product__feature">
+            <div class="product__feature__main">
+                <h3 class="product__feature__main__title">Görüntülü Görüşme Özelliği</h3>
+                <p class="product__feature__main__description">
+                    Wiky Watch 5 Plus, hem sesli hem de görüntülü görüşme yapabilme özelliği ile öne çıkıyor. Bu özellik, ebeveynlerin çocuklarıyla yüz yüze iletişim kurabilmesini sağlar. Bu da aile içi etkinlikleri veya arkadaşlarla iletişimi daha etkileşimli hale getirir.
+                </p>
+            </div>
+            <div class="product__feature__image__area">
+                <img src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?ga=GA1.1.750660428.1742764870&semt=ais_hybrid&w=740" alt="Product Image">
+            </div>
+        </div>
+        <div class="product__feature">
+            <div class="product__feature__image__area">
+                <img src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?ga=GA1.1.750660428.1742764870&semt=ais_hybrid&w=740" alt="Product Image">
+            </div>
+            <div class="product__feature__main">
+                <h3 class="product__feature__main__title">Spreadtrum 8541E İşlemci ve Wiky OS İletişim Sistemi</h3>
+                <p class="product__feature__main__description">
+                    "Spreadtrum 8541E Quad-Core 1.4 GHz işlemci ve Wiky OS işletim sistemi ile saatin performansı oldukça yüksek ve kullanıcı dostudur. Bu özelliklerin sorunsuz şekilde çalışmasını sağlar."
+                </p>
+            </div>
+        </div>
+    </div>
+    
 </section>
 @endsection
