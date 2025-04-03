@@ -11,7 +11,7 @@
             <input type="password" id="password" name="password" placeholder="Parola" required>
             <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Parola Tekrarı" required>
             <button id="registerButton" type="submit">Kayıt Ol</button>
-            <small class="have__account">Wiky Watch Hesabınız Var Mı ? <a class="have__account__link" href="">Hemen Giriş Yapın</a></small>
+            <small class="have__account">Wiky Watch Hesabınız Var Mı ? <a class="have__account__link" href="{{route('login')}}">Hemen Giriş Yapın</a></small>
         </form>
     </div>
     <div class="register__wrapper__bottom">

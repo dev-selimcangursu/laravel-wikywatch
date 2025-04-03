@@ -6,7 +6,7 @@
     <div class="mobile__sidebar__menu__list">
         <ul>
             <li>
-                <a class="mobile__sidebar__menu__list__link" href="">Anasayfa</a>
+                <a class="mobile__sidebar__menu__list__link" href="{{route('index')}}">Anasayfa</a>
             </li>
             <hr>
             <li>
@@ -133,7 +133,7 @@
             <div class="header__bottom__left__menu">
                 <ul>
                     <li>
-                        <a class="header__bottom__left__menu__link" href="">Anasayfa</a>
+                        <a class="header__bottom__left__menu__link" href="{{route('index')}}">Anasayfa</a>
                     </li>
                     <li>
                         <a class="header__bottom__left__menu__link" href="">Akıllı Saatler</a>
