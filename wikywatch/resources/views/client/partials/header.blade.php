@@ -203,6 +203,24 @@
                 </li>
                 <li><a class="header__bottom__right__menu__link" href="#">Bilgi Bankası</a></li>
                 <li><a class="header__bottom__right__menu__link" href="#">Medyada Biz</a></li>
+                @if(Auth::user())
+                <li>
+                    <a class="header__bottom__right__menu__link" href=""><i class="bi bi-person-circle"></i> Hesabım</a> 
+                </li>
+                <li>
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                    <a class="header__bottom__right__menu__link"  onclick="event.preventDefault();this.closest('form').submit();" href="{{route('logout')}}">Çıkış Yap</a> 
+                   </form>
+                </li>
+                @else
+                <li>
+                    <a class="header__bottom__right__menu__link" href="{{route('login')}}"><i class="bi bi-person-circle"></i> Giriş Yap / Kayıt Ol</a> 
+                </li>
+                @endif
+                <li>
+                    <a href=""><a style="color: #333" href=""><i class="bi bi-bag-check"></i></a></a>
+                </li>
             </ul>
         </div>
         <a class="mobile__sidebar__open__button" ><i class="bi bi-list"></i></a>

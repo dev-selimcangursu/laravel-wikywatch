@@ -4,13 +4,14 @@
     <h3 class="login__global__text">Ödeme seçeneklerini hızlandırmak için oturum açın.</h3>
     <div class="login__area">
         <p class="login__text">Wiky Watch'da oturum açın</p>
-        <form action="">
-            <input type="email" placeholder="E-Posta Adresi" required>
-            <input type="password" placeholder="Parola" required>
+        <form method="POST" action="{{ route('login') }}">
+            @csrf
+            <input type="email" id="email" name="email" placeholder="E-Posta Adresi" required>
+            <input type="password" id="password" name="password" placeholder="Parola" required>
             <button id="loginButton" type="submit">Giriş Yap</button>
             <div class="form__options">
                 <label>
-                    <input type="checkbox"> Beni hatırla
+                    <input id="remember_me" name="remember" type="checkbox"> Beni hatırla
                 </label>
                 <a href="">Parolayı mı Unuttunuz?</a>
             </div>

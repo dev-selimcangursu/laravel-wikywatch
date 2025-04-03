@@ -405,10 +405,97 @@
   color: #004a99;
 }
 /**! LOGİN SAYFASI CSS :: SON **/
-
-
-
-
+/** REGİSTER SAYFASI CSS :: BAŞLANGIÇ **/
+#register__wrapper {
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+#register__wrapper .register__global__text {
+  font-size: 36px;
+  color:black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#register__wrapper .register__area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  margin: auto;
+}
+#register__wrapper .register__area .register__text {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#register__wrapper .register__area form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#register__wrapper .register__area form input[type="email"],input[type="password"],input[type="text"] {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease-in-out;
+}
+#register__wrapper .register__area form input[type="email"]:focus,input[type="password"]:focus,[type="text"]:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+#register__wrapper .register__area form #registerButton {
+  padding: 15px;
+  font-size: 13px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#register__wrapper .register__area form  #registerButton:hover {
+  background-color: #004a99;
+}
+#register__wrapper .register__area form .have__account {
+  font-size: 13px;
+  color: #0000008c;
+  text-align: center;
+}
+.have__account__link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.have__account__link:hover {
+  color: #004a99;
+}
+#register__wrapper .register__wrapper__bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+#register__wrapper .register__wrapper__bottom a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+#register__wrapper .register__wrapper__bottom a:hover {
+  color: #004a99;
+}
+/** REGİSTER SAYFASI CSS :: SON **/
 
 
 
