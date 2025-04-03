@@ -1,6 +1,7 @@
 @extends('client.partials.master')
 @section('main')
 <section id="home">
+    {{--Home Section::Start --}}
     <section class="home__section__wrapper">
         <div class="home__section">
             <div class="home__section__main">
@@ -50,5 +51,74 @@
             </div>
         </div>
     </section>
+       {{--Home Section::End --}}
+       {{-- Order Products :: Start --}}
+       <section id="order__products__wrapper">
+           <div class="order__products">
+              <div class="order__products__top">
+                 <h3 class="order__product__title">Diğer Ürünler</h3>
+                 <a class="total__products__link" href="">Tüm Ürünlere Bak</a>
+              </div>
+               <div class="order__products__cards">
+                   <div class="order__product__card">
+                       <div class="order__product__card__main">
+                            <h5 class="order__product__card__title">Wiky Watch 4S Kamuflaj Serisi</h5>
+                            <div class="order__product__card__description__area">
+                                <small class="order__product__card__description">Güvenli Takip | Görüntülü Görüşme | Uzun Pil Ömrü | IPS Ekran | IP67 Sertifikası | Ateş Ölçer</small>
+                            </div>
+                            <div class="order__product__card__bottom">
+                                <button class="order__product__card__bottom__button">Ürünü İncele</button>
+                            </div>
+                       </div>
+                       <div class="order__product__card__image__area">
+                        <img src="{{asset('assets/images/wikywatch-4s-pembe-kamuflaj.png')}}" alt="image">
+                    </div>
+                   </div>
+                   <div class="order__product__card">
+                    <div class="order__product__card__main">
+                         <h5 class="order__product__card__title">Wiky Watch 5S Akıllı Çocuk Saati </h5>
+                         <div class="order__product__card__description__area">
+                             <small class="order__product__card__description">Güvenli Takip | Görüntülü Görüşme | Uzun Pil Ömrü | IPS Ekran | IP67 Sertifikası | Ateş Ölçer</small>
+                         </div>
+                         <div class="order__product__card__bottom">
+                             <button class="order__product__card__bottom__button">Ürünü İncele</button>
+                         </div>
+                    </div>
+                    <div class="order__product__card__image__area">
+                        <img src="{{asset('assets/images/wikywatch-4s-pembe-kamuflaj.png')}}" alt="image">
+                    </div>
+                </div>
+                <div class="order__product__card">
+                    <div class="order__product__card__main">
+                         <h5 class="order__product__card__title">Wiky Watch Tag Serisi</h5>
+                         <div class="order__product__card__description__area">
+                             <small class="order__product__card__description">Güvenli Takip | Görüntülü Görüşme | Uzun Pil Ömrü | IPS Ekran | IP67 Sertifikası | Ateş Ölçer</small>
+                         </div>
+                         <div class="order__product__card__bottom">
+                             <button class="order__product__card__bottom__button">Ürünü İncele</button>
+                         </div>
+                    </div>
+                    <div class="order__product__card__image__area">
+                        <img src="{{asset('assets/images/wikywatch-4s-pembe-kamuflaj.png')}}" alt="image">
+                    </div>
+                </div>
+                <div class="order__product__card">
+                    <div class="order__product__card__main">
+                         <h5 class="order__product__card__title">Wiky Çantalar</h5>
+                         <div class="order__product__card__description__area">
+                             <small class="order__product__card__description">Güvenli Takip | Görüntülü Görüşme | Uzun Pil Ömrü | IPS Ekran | IP67 Sertifikası | Ateş Ölçer</small>
+                         </div>
+                         <div class="order__product__card__bottom">
+                             <button class="order__product__card__bottom__button">Ürünü İncele</button>
+                         </div>
+                    </div>
+                    <div class="order__product__card__image__area">
+                        <img src="{{asset('assets/images/wikywatch-4s-pembe-kamuflaj.png')}}" alt="image">
+                    </div>
+                </div>
+               </div>
+           </div>
+       </section>
+        {{-- Order Products :: End --}}
 </section>
 @endsection
