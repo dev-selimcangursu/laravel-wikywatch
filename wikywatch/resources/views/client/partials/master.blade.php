@@ -12,7 +12,6 @@
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
-
     <title>Wiky Watch | Türkiyenin İlk Akıllı Çocuk Saati</title>
 </head>
 <body>
