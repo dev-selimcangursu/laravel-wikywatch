@@ -2,12 +2,13 @@
 
 use App\Http\Controllers\client\AccountController;
 use App\Http\Controllers\client\IndexController;
+use App\Http\Controllers\client\ProductController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/',[IndexController::class,'index'])->name('index');
-
-
+Route::get('/products/{product_slug}',[ProductController::class,'index'])->name('product.index');
+Route::get('/products/{product_slug}/detail',[ProductController::class,'detail'])->name('product.detail');
 
 Route::middleware('auth')->group(function () {
     
