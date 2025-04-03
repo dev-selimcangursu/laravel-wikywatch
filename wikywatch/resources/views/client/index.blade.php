@@ -21,7 +21,7 @@
     <section class="home__section__wrapper">
         <div class="home__section">
             <div class="home__section__main">
-                <span class="home__section__badge">Yeni Ürün</span>
+                <span class="home__section__badge">Popüler Ürün</span>
                 <h3 class="home__section__title">Wiky Watch 5E</h3>
                 <h4 class="home__section__featured">
                     Şık IPS Ekran | SOS Tuşu | Konum Takibi | Sınıf Modu | Güvenli Alan | Görüntülü Görüşme
@@ -38,7 +38,7 @@
     <section class="home__section__wrapper">
         <div class="home__section">
             <div class="home__section__main">
-                <span class="home__section__badge">Yeni Ürün</span>
+                <span class="home__section__badge">En Çok Satan Ürün</span>
                 <h3 class="home__section__title">Wiky Watch 5E</h3>
                 <h4 class="home__section__featured">
                     Şık IPS Ekran | SOS Tuşu | Konum Takibi | Sınıf Modu | Güvenli Alan | Görüntülü Görüşme
@@ -120,5 +120,55 @@
            </div>
        </section>
         {{-- Order Products :: End --}}
+        <section id="mobile__app__wrapper">
+            <div class="mobile__app__area">
+                <h2>Wiky Watch Uygulama Görüntüleri</h2>
+                <small>Uygulama ile çocuğunuzu takip edebilir,mesaj bırakabilir, arayabilir ve daha bir çok özelliği kullanabilirsiniz.</small>
+            </div>
+            <div class="splide app__splide" role="group" aria-label="Wiky Watch Screenshots">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-1.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-2.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-3.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-4.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-5.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-6.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{asset('assets/images/uygulama-7.webp')}}" alt="Wiky Watch Screenshot 1">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 </section>
+<script>
+    var splide = new Splide('.app__splide', {
+  type   : 'loop',
+  perPage: 5,    
+  perMove: 1,     
+  gap    : '100px', 
+  breakpoints: {
+    1024: {
+      perPage: 2, 
+    },
+    768: {
+      perPage: 1,
+    },
+  },
+});
+splide.mount();
+</script>
 @endsection

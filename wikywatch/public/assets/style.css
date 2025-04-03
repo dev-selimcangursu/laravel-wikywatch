@@ -857,8 +857,48 @@ animation: floatAnimation 2s ease-in-out infinite;
   border-radius: 3px;
   cursor: pointer;
 }
-
-
+#mobile__app__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+#mobile__app__wrapper .mobile__app__area {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#mobile__app__wrapper .mobile__app__area h2 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#mobile__app__wrapper .splide {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+#mobile__app__wrapper .splide .splide__track {
+  overflow: hidden;
+}
+#mobile__app__wrapper .splide .splide__track .splide__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#mobile__app__wrapper .splide .splide__track .splide__list .splide__slide img {
+  width: 100%;
+  min-width: 280px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 
 
@@ -883,6 +923,7 @@ animation: floatAnimation 2s ease-in-out infinite;
 
 }
 /** HOME SAYFASI CSS :: SON **/
+
 
 
 
