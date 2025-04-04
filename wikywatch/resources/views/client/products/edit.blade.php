@@ -1,5 +1,150 @@
 @extends('client.partials.master')
 @section('main')
+<div id="productFeatureModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Ürün Özellikleri</h2>
+        <table>
+            <tr>
+                <th>Özellik</th>
+                <th>Değer</th>
+            </tr>
+            <tr>
+                <td>Ağırlık</td>
+                <td>208 Gram</td>
+            </tr>
+            <tr>
+                <td>Boyutlar</td>
+                <td>153 x 88 x 28 mm</td>
+            </tr>
+            <tr>
+                <td>Sos Acil Arama</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Sesli Arama</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Görüntülü Görüşme Desteği</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Sesli Mesaj Gönderme / Alma</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Yazılı Mesaj Alma Gönderme</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Uzaktan Görüntü Alma</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Tuşla Arama Aktifleştirme</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Rehber Kişi Sayısı</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Anlık Konum Takibi</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Geçmiş Rota Takibi</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Alarm</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Koldan Çıktı Uyarısı</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Sınıf Modu</td>
+                <td>Var</td>
+            </tr>
+              <tr>
+                <td>Elektronik Çit</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Takip Aralığı Belirleme</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Titreşime Alma</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Uzaktan Kapatma</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Uzaktan Yeniden Başlatma</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Zaman Ayarlı Açma</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Saat ve Dil Ayarları</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Türkçe Dil Desteği</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Adım Sayar</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Gizli Arama Yapanları Göster</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Saati Uzaktan Sıfırlama</td>
+                <td>Var</td>
+            </tr>
+            <tr>
+                <td>Koldan Çıktı Uyarısını Kapatma</td>
+                <td>Yok</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="productPıcturesModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slider-container">
+            <div class="main-image">
+                <img id="mainImage" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-4.jpg" alt="Ürün Görseli">
+            </div>
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-4.jpg" alt="Thumbnail 1" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-4.jpg')">
+                <img class="thumbnail" src="https://cdn4.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-5-300x300.jpg.webp" alt="Thumbnail 2" onclick="changeImage('https://cdn4.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-5-300x300.jpg.webp')">
+                <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-7.jpg" alt="Thumbnail 3" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-7.jpg')">
+                <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-3.jpg" alt="Thumbnail 4" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-3.jpg')">
+                <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-2.jpg" alt="Thumbnail 4" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-2.jpg')">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
 <section id="product__detail">
     <div class="product">
         <div class="product__info__left__main">
@@ -67,7 +212,7 @@
                     <li><a href="#">IP67 Su ve Toz Dayanıklılığı</a></li>
                 </ul>
             </div>
-            <a href="">Ürün Özellikleri Tablosunu İncele !</a>
+            <a id="productFeatureTableOpen" href="">Ürün Özellikleri Tablosunu İncele !</a>
         </div>
     </div>
     <div class="product__feature__wrapper">
@@ -155,4 +300,48 @@
     </div>
     
    </section>
+
+   <script>
+    $(document).ready(function(){
+      
+       let productFeatureModal = $('#productFeatureModal');
+       let productPıcturesModal = $('#productPıcturesModal')
+
+       // Ürün Özellik Tablosunu Aç
+       $('#productFeatureTableOpen').click(function(e){
+          e.preventDefault();
+          productFeatureModal.css('display','block');
+       });
+       // Ürün Özellik Tablosunu Kapat
+       $('.close').click(function(e){
+        e.preventDefault();
+          productFeatureModal.css('display','none');
+          productPıcturesModal.css('display','none');
+       })
+       // Ürün Görselleri Modali Aç
+       $('.open__product__modal__image').click(function(e){
+        e.preventDefault();
+        productPıcturesModal.css('display','block');
+       })
+    })
+
+    // Görsel değiştirme işlemi
+function changeImage(imageSrc) {
+    const mainImage = document.getElementById("mainImage");
+    mainImage.src = imageSrc;
+    
+    // Tüm küçük resimleri normal hale getir
+    const thumbnails = document.querySelectorAll(".thumbnail");
+    thumbnails.forEach(thumbnail => {
+        thumbnail.classList.remove("selected");
+    });
+
+    // Tıklanan küçük resmi seçili yap
+    const selectedThumbnail = Array.from(thumbnails).find(thumbnail => thumbnail.src.includes(imageSrc));
+    if (selectedThumbnail) {
+        selectedThumbnail.classList.add("selected");
+    }
+}
+
+   </script>
 @endsection
