@@ -120,7 +120,6 @@
         </table>
     </div>
 </div>
-
 <div id="productPıcturesModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
@@ -134,7 +133,6 @@
                 <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-7.jpg" alt="Thumbnail 3" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-7.jpg')">
                 <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-3.jpg" alt="Thumbnail 4" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-3.jpg')">
                 <img class="thumbnail" src="https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-2.jpg" alt="Thumbnail 4" onclick="changeImage('https://cdn1.wikywatch.com.tr/uploads/2025/03/wiky-watch-5plus-mor-2.jpg')">
-
             </div>
         </div>
     </div>
